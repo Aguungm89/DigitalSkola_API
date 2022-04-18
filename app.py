@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route("/users", methods=["GET", "POST"])
 
-def say_hello():
-    return jsonify({"text": "Hello World!"})
+# def say_hello():
+#     return jsonify({"text": "Hello World!"})
 
 def users():
     if request.method == 'GET':
